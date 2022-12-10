@@ -1,6 +1,7 @@
 html,body{
     overflow-x: hidden;
     width: 100%;
+    background-color: black;
 }
 
 img{
@@ -11,6 +12,7 @@ img{
 
 .header{
     margin: 10px 10px 10px 10px;
+    background-color: dimgrey;
 }
 
 .container{
@@ -19,17 +21,26 @@ img{
 }
 
 .main{
-width: 700px;
-background-color: aqua;
+width: 900px;
+background-color: dimgrey;
 padding: 0 10px 10px 0;
 }
 
 .sidebar{
-width: 280px;
+width: 300px;
 float: right;
-background-color: blueviolet;
+background-color: dimgrey;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .footer{
     margin: 10px 10px 10px 10px;
+    background-color: dimgrey;
 }
