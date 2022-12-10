@@ -1,5 +1,16 @@
 function showMessage() {
-    let name = prompt('Как вас зовут?');
-    alert(`Привет, ${name}!`);
+    let name1 = prompt('Как вас зовут?');
+    alert(`Привет, ${name1}!`);
 }
 showMessage()
+
+function film() {
+    let film = prompt('Введите любимый фильм');
+    if (film == 'Титаник') {
+        alert('Done');
+    }
+    else {
+        alert('Попробуйте еще раз');
+    }
+}
+film()
