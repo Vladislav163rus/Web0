@@ -12,6 +12,7 @@ $workname = ['Стажер','Джун Тестировщик', 'Мидл Тес�
 $startDate = ['12.01.2020', '12.12.2020', '10.10.2021'];
 $stopDate = ['12.12.2020', '10.10.2021', 'по настоящее время'];
 $aboutwork = ['Первая работа в сфере IT', 'Промежуточный этап карьеры', 'Новый виток карьеры']
+$status = ['Актуальный статус','Неактуальный статус', 'Без статуса']
 ?>
 
 <?php echo $prosent[0];?>
@@ -107,7 +108,7 @@ $aboutwork = ['Первая работа в сфере IT', 'Промежуто�
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b><?php echo $workname[2];?> </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> <?php echo $startDate[2]?> - <?php echo $stopDate[2];?> - <span class="w3-tag w3-teal w3-round">Актуальный статус</span></h6>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> <?php echo $startDate[2]?> - <?php echo $stopDate[2];?> - <span class="w3-tag w3-teal w3-round"><?php echo$status[0];?></span></h6>
           <p><?php echo $aboutwork[2]?></p>
           <hr>
         </div>
